@@ -86,19 +86,19 @@ function handleOperation(value){
 function doOperation(value){
     switch(previousOperation){
         case "+":
-            runningTotal += value;
+            runningTotal += value
             break
         case "-":
-            runningTotal -= value;
+            runningTotal -= value
             break
         case "*":
-            runningTotal *= value;
+            runningTotal *= value
             break
         case "/":
-            runningTotal /= value;
+            runningTotal /= value
             break
         case "%":
-            runningTotal %= value;
+            runningTotal = runningTotal % value
             break
     }
 }
