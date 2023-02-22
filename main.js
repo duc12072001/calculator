@@ -98,6 +98,7 @@ function doOperation(value){
             runningTotal /= value;
             break
         case "%":
+            runningTotal %= value;
             break
     }
 }
